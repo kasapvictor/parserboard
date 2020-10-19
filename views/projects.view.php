@@ -1,0 +1,94 @@
+<?php require 'partials/head.php'; ?>
+
+<?php require 'partials/header.php'; ?>
+
+<main class="main-projects">
+	<div class="container">
+		<section class="wrap-project-list">
+			<h1 class="title-h1">Список проектов</h1>
+
+			<div class="project-list-subtitle">
+				<h2 class="page-title-h2 icon-list">Ваши проекты</h2>
+				<div class="w-button button-add-project" data-wait="...">+ Добавить новый проект</div>
+			</div>
+
+			<div class="project-row-header">
+				<div class="wrap-project-title">
+					<div class="project-big-title">Проект</div>
+				</div>
+				<div class="wrap-project-source">
+					<div class="project-big-title">Источник</div>
+				</div>
+				<div class="wrap-project-dest">
+					<div class="project-big-title">Цель</div>
+				</div>
+				<div class="wrap-project-type">
+					<div class="project-big-title">Тип</div>
+				</div>
+				<date class="wrap-project-date">
+					<div class="project-big-title">Дата</div>
+				</date>
+			</div>
+			<div class="project-row">
+				<div class="wrap-project-title icon-project">
+					<div class="project-small-title">Проект:</div>
+					<a class="project-title" href="#">iDD – Промышленный инжиниринг водных систем</a></div>
+				<div class="wrap-project-source">
+					<div class="project-small-title">Источник:</div>
+					<a class="project-source" href="#">https://idd-february.webflow.io/</a></div>
+				<div class="wrap-project-dest">
+					<div class="project-small-title">Цель:</div>
+					<a class="project-dest" href="#">http://llc-idd.ru/</a></div>
+				<div class="wrap-project-type">
+					<div class="project-small-title">Тип:</div>
+					<div class="project-type">Quiz</div>
+				</div>
+				<date class="wrap-project-date">
+					<div class="project-small-title">Дата:</div>
+					<div class="project-date">16.10.2020</div>
+				</date>
+			</div>
+			<div class="project-row">
+				<div class="wrap-project-title icon-project">
+					<div class="project-small-title">Проект</div>
+					<a class="project-title" href="#">iDD – Промышленный инжиниринг водных систем</a></div>
+				<div class="wrap-project-source">
+					<div class="project-small-title">Источник</div>
+					<a class="project-source" href="#">https://idd-february.webflow.io/</a></div>
+				<div class="wrap-project-dest">
+					<div class="project-small-title">Цель</div>
+					<a class="project-dest" href="#">http://llc-idd.ru/</a></div>
+				<div class="wrap-project-type">
+					<div class="project-small-title">Тип</div>
+					<div class="project-type">Quiz</div>
+				</div>
+				<date class="wrap-project-date">
+					<div class="project-small-title">Дата</div>
+					<div class="project-date">16.10.2020</div>
+				</date>
+			</div>
+			<div class="project-row">
+				<div class="wrap-project-title icon-project">
+					<div class="project-small-title">Проект</div>
+					<a class="project-title" href="#">iDD – Промышленный инжиниринг водных систем</a></div>
+				<div class="wrap-project-source">
+					<div class="project-small-title">Источник</div>
+					<a class="project-source" href="#">https://idd-february.webflow.io/</a></div>
+				<div class="wrap-project-dest">
+					<div class="project-small-title">Цель</div>
+					<a class="project-dest" href="#">http://llc-idd.ru/</a></div>
+				<div class="wrap-project-type">
+					<div class="project-small-title">Тип</div>
+					<div class="project-type">Quiz</div>
+				</div>
+				<date class="wrap-project-date">
+					<div class="project-small-title">Дата</div>
+					<div class="project-date">16.10.2020</div>
+				</date>
+			</div>
+		</section>
+	</div>
+
+</main>
+
+<?php require 'partials/footer.php'; ?>

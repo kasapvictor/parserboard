@@ -1,0 +1,56 @@
+<?php require 'partials/head.php'; ?>
+
+<?php require 'partials/header.php'; ?>
+
+<main class="main">
+	<div class="container">
+		<section class="wrap-entry">
+			<div class="wrap-form-user w-form">
+				<h1 class="title-h1">Parser board</h1>
+				<form id="registration-form" name="registration-form">
+
+					<h2 class="title-h2">Регистрация</h2>
+
+					<label class="field-label" for="registration-email">Email</label>
+					<input autofocus="true"
+					       class="field w-input"
+					       id="registration-email"
+					       maxlength="256"
+					       name="email"
+					       placeholder="example@example.com"
+					       required="required"
+					       type="text">
+
+					<label class="field-label" for="registration-password-first">Пароль</label>
+					<input class="field w-input"
+					       id="registration-password-first"
+					       maxlength="256"
+					       name="registration-password-first"
+					       required="required"
+					       type="password">
+
+					<label class="field-label" for="registration-password-proof">Подтверждение пароля</label>
+					<input class="field w-input"
+					       id="registration-password-proof"
+					       maxlength="256"
+					       name="registration-password-proof"
+					       required="required"
+					       type="password">
+
+					<input class="user-button w-button"
+					       data-wait="..."
+					       type="submit"
+					       value="Отправить">
+				</form>
+				<div class="w-form-done">
+					<div>Thank you! Your submission has been received!</div>
+				</div>
+				<div class="w-form-fail">
+					<div>Oops! Something went wrong while submitting the form.</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</main>
+
+<?php require 'partials/footer.php'; ?>

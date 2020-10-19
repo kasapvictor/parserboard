@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Parser board - <?= $title; ?></title>
+
+    <meta content="Parser board" property="og:title">
+    <meta content="Parser board" property="twitter:title">
+    <meta content="Парсер" name="description">
+    <meta content="Парсер" property="og:description">
+    <meta content="Парсер" property="twitter:description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="author" content="Parser board">
+    <meta property="og:image" content="https://.../assets/images/logo256.png" />
+    <meta property="og:image:secure_url" content="https://.../assets/images/logo256.png" />
+    <meta property="og:image:type" content="image/png" />
+
+    <link href="views/assets/images/logo32.png" rel="shortcut icon" type="image/x-icon">
+    <link href="views/assets/images/logo256.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="views/assets/styles/main.css">
+</head>
+
+<body class="body">
+<div class="body-content">

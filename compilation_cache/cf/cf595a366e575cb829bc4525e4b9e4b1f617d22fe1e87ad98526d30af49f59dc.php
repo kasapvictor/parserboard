@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* partials/header.php */
-class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe50627 extends \Twig\Template
+/* partials/header.html */
+class __TwigTemplate_ccd84de5b01b531b08d7516685459c6abf60f61c937d8bcc56eaf113710be7cc extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -33,7 +33,7 @@ class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe
         <div data-collapse=\"medium\" data-animation=\"default\" data-duration=\"400\" role=\"banner\" class=\"navbar w-nav\">
             <div class=\"nav-container w-container\">
                 <a href=\"/\" class=\"logo w-nav-brand\">
-                    <img src=\"views/assets/images/logo256.png\"
+                    <img src=\"templates/assets/images/logo256.png\"
                          loading=\"lazy\"
                          alt=\"ParserBoard\"
                          class=\"top-logo\">
@@ -41,7 +41,7 @@ class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe
 
                 ";
         // line 13
-        $this->loadTemplate("partials/navigation.php", "partials/header.php", 13)->display($context);
+        $this->loadTemplate("partials/navigation.html", "partials/header.html", 13)->display($context);
         // line 14
         echo "
                 <div class=\"menu-button w-nav-button\">
@@ -54,7 +54,7 @@ class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe
 
     public function getTemplateName()
     {
-        return "partials/header.php";
+        return "partials/header.html";
     }
 
     public function isTraitable()
@@ -77,6 +77,6 @@ class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe
 
     public function getSourceContext()
     {
-        return new Source("", "partials/header.php", "/home/v/vic4884g/parser-board.ru/public_html/views/partials/header.php");
+        return new Source("", "partials/header.html", "/home/v/vic4884g/parser-board.ru/public_html/templates/partials/header.html");
     }
 }

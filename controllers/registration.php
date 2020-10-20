@@ -1,5 +1,10 @@
 <?php
 
+//$template = $twig->loadTemplate('registration.view.php');
+$template = $twig->loadTemplate('registration.html');
+
 $title = 'Ресгистрация';
 
-require 'views/registration.view.php';
+echo $template->render([
+    'title'     => $title,
+]);

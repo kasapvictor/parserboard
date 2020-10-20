@@ -1,5 +1,10 @@
 <?php
 
+//$template = $twig->loadTemplate('password.view.php');
+$template = $twig->loadTemplate('password.html');
+
 $title = 'Восстановление пароля';
 
-require 'views/password.view.php';
+echo $template->render([
+    'title'     => $title,
+]);

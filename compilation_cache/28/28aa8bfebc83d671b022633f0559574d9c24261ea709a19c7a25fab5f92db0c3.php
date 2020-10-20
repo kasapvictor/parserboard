@@ -12,7 +12,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* partials/header.php */
-class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe50627 extends \Twig\Template
+class __TwigTemplate_8826d17c4bd6da7ed64005fbf72d30ddb3fcf8ff5d8a4651bf5523c2591992a6 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -77,6 +77,6 @@ class __TwigTemplate_8a5cbaa903850f8ecd09a045c387adf0c0a185d3c525a2b6e0e4e597dfe
 
     public function getSourceContext()
     {
-        return new Source("", "partials/header.php", "/home/v/vic4884g/parser-board.ru/public_html/views/partials/header.php");
+        return new Source("", "partials/header.php", "/home/v/vic4884g/parser-board.ru/public_html/templates/partials/header.php");
     }
 }

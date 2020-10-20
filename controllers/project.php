@@ -1,5 +1,10 @@
 <?php
 
+//$template = $twig->loadTemplate('project.view.php');
+$template = $twig->loadTemplate('project.html');
+
 $title = 'Проект {название}';
 
-require 'views/project.view.php';
+echo $template->render([
+    'title'     => $title,
+]);

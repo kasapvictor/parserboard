@@ -1,5 +1,10 @@
 <?php
 
+//$template = $twig->loadTemplate('index.view.php');
+$template = $twig->loadTemplate('index.html');
 $title = 'Главная';
 
-require 'views/index.view.php';
+echo $template->render([
+    'title'     => $title,
+]);
+

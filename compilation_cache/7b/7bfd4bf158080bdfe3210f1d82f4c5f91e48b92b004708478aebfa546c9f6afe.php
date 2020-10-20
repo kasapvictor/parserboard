@@ -41,16 +41,17 @@ class __TwigTemplate_81759f22df2465be7fdeee5f3bf84dde38b2fdd91046aca7a3bd8a22c0e
         $this->displayBlock('content', $context, $blocks);
         // line 8
         echo "
-<!--";
+";
         // line 9
-        $this->loadTemplate("partials/header.php", "base.view.php", 9)->display($context);
-        echo "-->
+        $this->loadTemplate("index.view.php", "base.view.php", 9)->display($context);
+        // line 10
+        echo "
 
-<!--";
-        // line 11
-        $this->loadTemplate("partials/footer.php", "base.view.php", 11)->display($context);
-        echo "-->
-
+";
+        // line 12
+        $this->loadTemplate("partials/footer.php", "base.view.php", 12)->display($context);
+        // line 13
+        echo "
 ";
     }
 
@@ -58,8 +59,6 @@ class __TwigTemplate_81759f22df2465be7fdeee5f3bf84dde38b2fdd91046aca7a3bd8a22c0e
     public function block_content($context, array $blocks = [])
     {
         // line 6
-        echo "\t";
-        echo twig_escape_filter($this->env, ($context["title"] ?? null), "html", null, true);
         echo "
 ";
     }
@@ -76,7 +75,7 @@ class __TwigTemplate_81759f22df2465be7fdeee5f3bf84dde38b2fdd91046aca7a3bd8a22c0e
 
     public function getDebugInfo()
     {
-        return array (  61 => 6,  58 => 5,  51 => 11,  46 => 9,  43 => 8,  41 => 5,  38 => 4,  36 => 3,  33 => 2,  31 => 1,);
+        return array (  62 => 6,  59 => 5,  54 => 13,  52 => 12,  48 => 10,  46 => 9,  43 => 8,  41 => 5,  38 => 4,  36 => 3,  33 => 2,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */

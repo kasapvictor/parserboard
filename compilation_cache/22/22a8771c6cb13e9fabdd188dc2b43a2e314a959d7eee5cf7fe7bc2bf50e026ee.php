@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* partials/head.php */
-class __TwigTemplate_14ba0594be09e96d7070259c176741ce67677167b6046a79fdbf85e2d7385923 extends \Twig\Template
+/* partials/head.html */
+class __TwigTemplate_8d58be9b646e1de8a6c78217429cde41ad0448e254d811c5516e0d35dd0038aa extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -47,9 +47,9 @@ class __TwigTemplate_14ba0594be09e96d7070259c176741ce67677167b6046a79fdbf85e2d73
     <meta property=\"og:image:secure_url\" content=\"https://.../assets/images/logo256.png\" />
     <meta property=\"og:image:type\" content=\"image/png\" />
 
-    <link href=\"views/assets/images/logo32.png\" rel=\"shortcut icon\" type=\"image/x-icon\">
-    <link href=\"views/assets/images/logo256.png\" rel=\"apple-touch-icon\">
-    <link rel=\"stylesheet\" type=\"text/css\" href=\"views/assets/styles/main.css\">
+    <link href=\"templates/assets/images/logo32.png\" rel=\"shortcut icon\" type=\"image/x-icon\">
+    <link href=\"templates/assets/images/logo256.png\" rel=\"apple-touch-icon\">
+    <link rel=\"stylesheet\" type=\"text/css\" href=\"templates/assets/styles/main.css\">
 </head>
 
 <body class=\"body\">
@@ -58,7 +58,7 @@ class __TwigTemplate_14ba0594be09e96d7070259c176741ce67677167b6046a79fdbf85e2d73
 
     public function getTemplateName()
     {
-        return "partials/head.php";
+        return "partials/head.html";
     }
 
     public function isTraitable()
@@ -81,6 +81,6 @@ class __TwigTemplate_14ba0594be09e96d7070259c176741ce67677167b6046a79fdbf85e2d73
 
     public function getSourceContext()
     {
-        return new Source("", "partials/head.php", "/home/v/vic4884g/parser-board.ru/public_html/views/partials/head.php");
+        return new Source("", "partials/head.html", "/home/v/vic4884g/parser-board.ru/public_html/templates/partials/head.html");
     }
 }

@@ -14,19 +14,13 @@ require 'core/Request.php';
 $siteName = $app['config']['site']['name'];
 $path = $app['config']['site']['path'];
 
-/* twig */
+/* TWIG */
 
-$loader = new Twig_Loader_Filesystem('views');
+$loader = new Twig_Loader_Filesystem('templates');
 $twig = new Twig_Environment($loader,
     [
         'cache'         => 'compilation_cache',
         'auto_reload'   => true
     ]);
 
-$template = $twig->loadTemplate('base.view.php');
 
-$title = $siteName;
-
-//echo $template->render([
-//    'title' => $title
-//]);
